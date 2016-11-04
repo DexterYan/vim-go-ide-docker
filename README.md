@@ -1,5 +1,4 @@
 
-cker
 If you want a perfect Go development with autocomplete in minutes, here is the solution
 
 ### 1. Why docker
