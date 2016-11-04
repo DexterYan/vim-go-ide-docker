@@ -1,0 +1,10 @@
+version: '2'
+services:
+  vim:
+    build:
+      context: ./
+      dockerfile: Dockerfile-vim
+    ports:
+        - '8080:80'
+    volumes:
+        - ./app:/go/src/app:rw
